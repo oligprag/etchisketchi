@@ -3,3 +3,69 @@
     color: #ADEFD1FF
 }
 
+@media screen and (max-width: 1300px) {
+    .etch-grid {
+        width: 400px;
+        height: 400px;
+    }
+
+    .settings {
+        height: 400px;
+    }
+
+    .background-p {
+        margin-top: 20px;
+    }
+
+    .main-container {
+        gap: 0px;
+    }
+
+    .etch-grid {
+        margin-left: 100px;
+    }
+
+    .color-p {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .etch-grid {
+        width: 250px;
+        height: 250px;
+    }
+
+    .settings {
+        margin-left: 30px;
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .etch-grid {
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+
+    .settings {
+        margin-left: 30px;
+        height: 450px;
+        width: 250px
+        margin: 0px;
+    }
+
+    .main-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        margin: 0px;
+    }
+
+}
