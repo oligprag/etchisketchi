@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title {
+    font-family: 'Butterfly Kids', cursive;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.main-container {
+    display: flex;
+    gap: 100px;
+}
+
+.settings {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 100px;
+    background-color: #368ba6;
+    align-items: center;
+    padding: 30px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+
+
+#color, #background {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  #color::-webkit-color-swatch,   #background::-webkit-color-swatch {
+    border-radius: 1000px;
+    border: none;
+  }
+  #color::-moz-color-swatch,  #background::-moz-color-swatch {
+    border-radius: 1000px;
+    border: none;
+  }
+  
+.color-p, .background-p {
+
+    background-color: lightcyan;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 20px;;
+
+}
+
+.rainbow-mode, .erase-mode, .reset, .background {
+    margin-top: 20px;
+    background-color: lightcyan;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.etch-grid {
+    
+    margin-left: 180px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.grid-box {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
